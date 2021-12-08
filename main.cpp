@@ -22,7 +22,7 @@ int main()
   const int RIGHT_PEG = 3;
   const int MIDDLE_PEG = 2;
 
-  hanoi( NUM_DISCS, LEFT_PEG, MIDDLE_PEG, RIGHT_PEG);
+  hanoi( NUM_DISCS, LEFT_PEG, RIGHT_PEG, MIDDLE_PEG);
 
 
   cout << "tower of hanoi is solved" << endl;
