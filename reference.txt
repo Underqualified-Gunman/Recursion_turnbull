@@ -1,0 +1,6 @@
+1. Refer to the Gaddis (2015) Text Chapter 19 on Recursion: SOW_C++_CSO_Chapter_19_8e.ppt 
+2. Use of knowledge of C++ and Recursion to Solve the Towers of Hanoi problem (Goal: Research what this is, and solve it).
+
+3. In the comments, provide a definition of recursion. 
+
+4. Write a recursive function factorialR that will generate factorials based upon the user starting point (validated) input from the keyboard. i.e. When the user enters, 4, the function should multiply 4 x 3 x 2 x 1, and output the result of 24. 
