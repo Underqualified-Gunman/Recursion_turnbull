@@ -8,8 +8,8 @@ int factorialR(int);
 int main() 
 {
   int intput;
-  //cout << "enter the input for a factorial:" << endl;
-  cin >> intput;
+  cout << "enter the input for a factorial:" << endl;
+  validateInt(intput);
 
   //cout << factorialR(6) << endl;
   cout << factorialR(intput) << endl;
@@ -29,14 +29,4 @@ int factorialR(int i)
   {
     return i * factorialR(i-1);
   }
-  /*
-     int factorial(int n) 
-   { 
-       if (n == 0) 
-           return 1;                     // Base case 
-       else 
-           return n * factorial(n − 1);  // Recursive case 
-   } 
- 
-  */
 }
