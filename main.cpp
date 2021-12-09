@@ -2,7 +2,7 @@
 #include "IVE.h"
 #include <iostream>
 using namespace std;
-
+// recurseion is using a self reference either in a series of function calls or a function that explicitly self references to iterate upon a problem it shares many similarities to a do while or for loop however it is more expensive than those at the benifit of being easier to design.
 int factorialR(int);
 void hanoi(int, int, int, int);
 
